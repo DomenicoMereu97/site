@@ -63,7 +63,7 @@ header{
 }
 
 h1{
-    font-family: Lato;
+    font-family: "Lato";
     font-style: normal;
     font-weight: 800;
     font-size: 36px;
@@ -97,7 +97,7 @@ h1{
     border-radius: 3px;
     border: none;
     color: white;
-    font-family: Lato;
+    font-family: "Lato";
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -105,8 +105,8 @@ h1{
     text-align: center;
     padding-top: 9px;
     padding-bottom: 9px;
-    padding-left: 71px;
-    padding-right: 71px;
+    padding-left: 101px;
+    padding-right: 101px;
     margin-top: 49px;
     align-self: center;
 
