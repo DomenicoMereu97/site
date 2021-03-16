@@ -5,6 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     
+    
    
    
     
@@ -63,7 +64,7 @@ header{
 }
 
 h1{
-    font-family: "Lato";
+    font-family: Lato;
     font-style: normal;
     font-weight: 800;
     font-size: 36px;
@@ -97,7 +98,7 @@ h1{
     border-radius: 3px;
     border: none;
     color: white;
-    font-family: "Lato";
+    font-family: Lato;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -178,3 +179,31 @@ h1{
     
 }
 
+
+
+.gallery {
+    background: transparent;
+}
+  
+.gallery-cell {
+    margin-top: 25px;
+    width: 66%;
+    height: 200px;
+    margin-right: 10px;
+    background: rgb(44, 44, 44);
+    counter-increment: gallery-cell;
+}
+  
+  /* cell number */
+.gallery-cell:before {
+    display: block;
+    text-align: center;
+    content: counter(gallery-cell);
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+}
+.flickity-prev-next-button{
+    display: none;
+}
+   
