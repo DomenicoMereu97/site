@@ -192,6 +192,7 @@ h1{
     margin-right: 10px;
     background: rgb(44, 44, 44);
     counter-increment: gallery-cell;
+    border-radius: 6px;
 }
   
   /* cell number */
