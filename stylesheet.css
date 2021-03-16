@@ -1,0 +1,180 @@
+
+@import url(https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+   
+   
+    
+}
+body{
+    background: #202020;
+}
+
+header{
+    width: 100%;
+    background: linear-gradient(144.25deg, #4BFF0C 4.94%, #F6FB00 76.33%, #FFF500 119.17%);
+    background-repeat: no-repeat;
+    
+}
+
+#navbar{
+    background-image: url("navbar.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 13px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#menu{
+    background-image: url("menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    
+    
+}
+#logo{
+    
+    background-image: url("logo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#bmenu {
+    border: none;
+    background-color: transparent;
+    padding: 30px;
+
+}
+
+
+
+#blogo{
+    border: none;
+    background-color: transparent;
+    padding: 30px;
+}
+
+h1{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 43px;
+}
+ #titolo{
+     margin-top: 26px;
+     margin-left: 45px;
+ }
+ #sottotitolo{
+    margin-left: 45px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+#paragrafo{
+    margin-left: 45px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    margin-right: 135px;
+}
+#iscriviti{
+    background: #202020;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    border: none;
+    color: white;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 71px;
+    padding-right: 71px;
+    margin-top: 49px;
+    align-self: center;
+
+    
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+}
+
+#blksection{
+    margin-top: 57px;
+    background: #202020;
+    border-radius: 0px 102px 0px 117px;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+#carouselExampleInterval{
+    margin-top: 41px;
+    width: 248px;
+    align-self: center;
+}
+
+#box1{
+   
+    width: 240px;
+    height: 145px;
+    left: 63px;
+    top: 683px;
+    background: #3D3D3D;
+    border-radius: 0px 41px 0px 0px;
+}
+
+#box2{
+   
+    width: 240px;
+    height: 145px;
+    left: 63px;
+    top: 868px;
+    margin-top: 40px;
+    background: #3D3D3D;
+}
+
+#box3{
+   
+    width: 240px;
+    height: 145px;
+    left: 63px;
+    top: 1053px;
+    margin-top: 40px;
+    background: #3D3D3D;
+    border-radius: 0px 0px 0px 58px;
+}
+
+#cysection{
+    z-index: 0;
+    position: relative;
+    height: 700px;
+    left: 0px;
+    top: -120px;
+    background: linear-gradient(144.25deg, #0CD3FF 4.94%, #00FF47 119.17%);
+    
+}
+
