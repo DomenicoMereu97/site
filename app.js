@@ -28,7 +28,7 @@ document.getElementById("search-box").addEventListener("keydown", function(event
         setTimeout(function()
         {
             location.replace('http://google.com/search?q='+ input);
-        }, 5000)
+        }, 2500)
         
     }
 });
