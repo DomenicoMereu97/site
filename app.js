@@ -27,7 +27,7 @@ function inputFunction() {
           setTimeout(function()
           {
               location.replace('http://google.com/search?q='+ input);
-          }, 1000)
+          }, 1100)
           
       }
   });
