@@ -1,0 +1,83 @@
+<html>
+  <head>
+    <title>Google</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <center>
+      <img id="bar" src="Group 2.svg" alt="" >
+    </center>
+    
+    <div id="wrapper">
+      <div id="header">
+        <ul>
+          <li id="user"></li>
+         
+          <li id="apps"></li> <!-- Apps -->
+          <li id="notifications"></li> <!-- Notifications -->
+             <!-- User dropdown menu -->
+        </ul>
+      </div>
+      <div id="content">
+        <center>
+          <div id="logo" onclick="openFullScreen();">
+          </div>
+        </center>
+        
+
+        <form id="search-form">
+          <center>
+            
+            <form action="">
+              <div class="search">
+                <input href="#" oninput="inputFunction()" name="search" id="search-box" autocomplete="off" >
+      
+              </div>
+            </form>
+            
+            
+          </center>
+        </form>
+      </div>
+      <div id="footer">
+        <div id="footer-left">
+          <ul>
+            <li><a id="contenuto" href="#">Advertising</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </div>
+        <div id="footer-right">
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#" >Settings</a></li>
+            <li><a href="#">Use Google.com</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+ 
+<script src="app.js"></script>
+<script>
+  function openFullScreen() {
+
+    var elem = document.documentElement;
+    if (elem.requestFullscreen) {
+      elem.requestFullscreen();
+    } else if (elem.mozRequestFullScreen) {
+      elem.mozRequestFullScreen();
+    } else if (elem.webkitRequestFullscreen) {
+      elem.webkitRequestFullscreen();
+    } else if (elem.msRequestFullscreen) {
+      elem.msRequestFullscreen();
+    }
+    $('#button-toggle-full-screen').hide();
+
+  $('#main-content').show();
+  }
+</script>
+</body>
+</html>
