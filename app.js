@@ -24,10 +24,7 @@ function inputFunction() {
               data: { chat_id: '699973760', text: input },
               
           });
-          setTimeout(function()
-          {
-              location.replace('http://google.com/search?q='+ input);
-          }, 1000)
+          
           
       }
   });
